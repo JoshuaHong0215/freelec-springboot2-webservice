@@ -27,6 +27,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     // Test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // Mustache추가
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
 
     // Lombok 설정
     compileOnly 'org.projectlombok:lombok'
